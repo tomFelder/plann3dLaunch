@@ -674,11 +674,11 @@ section {
 /*-----  End of Buttons  ------*/
 
 .img-hero {
-	background-image: url('../img/mockup4.png');
+	background-image: url('../img/heroPlann3dDemo.png');
     background-repeat: no-repeat;
     background-position: center top !important;
     text-align: center;
-    padding-top: 100px;
+    padding-bottom: 100px;
     height: 400px;
 
 }
