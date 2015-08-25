@@ -1,0 +1,26 @@
+/*===============================
+=            Numbers            =
+===============================*/
+/**
+
+	require:
+	- jquery.waypoints.min.js
+	- jquery.counterup.min.js
+	- numbers.js
+
+**/
+
+.numbers-1 h2 {
+	font-size: 48px;
+	font-weight: 600;
+	color: #F7C723;
+}
+.numbers-1 h4 {
+  font-weight: 600;
+}
+.numbers-1 .numbers-item {
+	padding: 20px 0 30px 0;
+}
+
+/*-----  End of Numbers  ------*/
+

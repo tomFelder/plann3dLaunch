@@ -1,0 +1,42 @@
+/*===============================
+=            Socials            =
+===============================*/
+
+.social-links-2{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.social-links-2 li {
+	display:inline-block;
+	margin: 0 3px;
+	box-shadow: none;
+	-webkit-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+}
+
+.social-links-2 li a {
+	background: transparent;
+	display:block;
+	color: #ccc;
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align:center;
+	border-radius:50%;
+	-webkit-transition:all .3s ease-out;
+	transition:all .3s ease-out;
+}
+
+
+.social-links-2 li a:hover {
+	color: #121417;
+	background:#F7C723;
+	text-decoration: none;
+	border-color: #F7C723;
+}
+
+
+/*-----  End of Socials  ------*/
+

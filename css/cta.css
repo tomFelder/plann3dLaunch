@@ -1,0 +1,25 @@
+/*======================================
+=            Call to action            =
+======================================*/
+
+.cta-1 span {
+	margin: 0;
+	font-size: 26px;
+	vertical-align:middle;
+	display: inline-block;
+	padding: 0 0 5px 5px;
+}
+.cta-1 .btn {
+	margin: 0 0 0 30px;
+}
+
+@media (max-width: 768px) {
+  .cta-1  span {
+    display: block;
+  }
+  .cta-1 .btn {
+    margin: 30px 0 0;
+  }
+}
+/*-----  End of Call to action  ------*/
+

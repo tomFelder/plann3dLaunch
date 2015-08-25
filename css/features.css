@@ -1,0 +1,60 @@
+/*================================
+=            Features            =
+================================*/
+
+/* Features 1 */
+
+.features-1 article .fa {
+	font-size: 32px;
+	color: #F7C723;
+}
+
+.features-1 article {
+	margin: 0px 0px 60px 0px;
+	padding: 0px 10px;
+}
+
+.features-1 article h3{
+	font-size: 17px;
+	font-weight: 700;
+	display: block;
+	margin: 12px 0px 13px 0px;
+}
+
+.features-1 article p {
+	font-size: 15px;
+	color: #8A8A8A;
+}
+
+.zoom-img  {
+    border-radius:50%;
+    width:180px;
+    z-index:1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    -ms-transition: all 0.15s ease-out 0s;
+    -o-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+    -webkit-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.4);
+	box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.4);
+	margin-bottom: 25px;
+	border: 6px solid #F7C723;
+}
+.zoom-img:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    -ms-transition: all 0.15s ease-out 0s;
+    -o-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+}
+/*-----  End of Features  ------*/
+

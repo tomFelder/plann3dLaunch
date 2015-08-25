@@ -1,0 +1,71 @@
+/*====================================
+=            COLOR turquoise            =
+====================================*/
+/*
+turquoise
+2fe6ce
+18C9B1
+*/
+
+
+.bg-shop {
+  background-color: #2fe6ce;
+}
+
+a {
+	color: #2fe6ce;
+}
+.color-text {
+	color: #2fe6ce;
+}
+.btn {
+	background: #2fe6ce;
+	-webkit-box-shadow: 0 4px 0 #18C9B1;
+	-moz-box-shadow: 0 4px 0 #18C9B1;
+	box-shadow: 0 4px 0 #18C9B1;
+}
+
+.numbers-1 h2 {
+  color: #2fe6ce;
+}
+
+.features-1 img:hover {
+	border: 6px solid #2fe6ce;
+}
+
+.back-to-top {
+	background: #2fe6ce;
+}
+
+.social-links-2 li a:hover {
+	color: #202020;
+	background:#2fe6ce;
+	border-color: #2fe6ce;
+}
+#menu-link:hover .menu-icon{
+    background-color: #2fe6ce;
+} 
+#menu-link.is-clicked{
+    background-color: #2fe6ce;
+}
+.myform .form-control:focus,
+.myform textarea.inputError:focus,
+.input-group .form-control:focus {
+	border: 2px solid #2fe6ce;
+}
+.hero-start-link:hover {
+	color:#2fe6ce;
+}
+.overlay nav ul li a:after {
+    background: #2fe6ce;
+}
+.close-modal:hover {
+  background-color: #2fe6ce;
+}
+.zoom-img  {
+	border: 6px solid #2fe6ce;
+}
+
+/*-----  End of COLOR turquoise  ------*/
+
+
