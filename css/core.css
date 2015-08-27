@@ -20,7 +20,7 @@ html,body {
 
 a {
 	font-weight: 700;
-	color: #F7C723;
+	color: #0066ab;
 	/*fix dotted line*/
 	outline: 0;
 }
@@ -50,7 +50,7 @@ hr {
 	border-top: 1px solid #ccc;
 }
 ::selection {
-  background: #F7C723; 
+  background: #0066ab; 
 }
 
 .lead {
@@ -303,7 +303,7 @@ section {
 
 
 .color-text {
-	color: #F7C723;
+	color: #0066ab;
 }
 	
 .white-text {
@@ -325,7 +325,7 @@ section {
     width: 100%;
     height: 100%;
     opacity: .6;
-    background-color: #F7C723;
+    background-color: #0066ab;
 }
 .dark-overlay {
     position: absolute;
@@ -546,14 +546,14 @@ section {
 	text-decoration: none;
 	outline: none !important;
 	position: relative;
-	background: #F7C723;
-	color: #202020;
+	background: #337ab7;
+	color: #FFFFFF;
 	border-radius: 4px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	-webkit-box-shadow: 0 4px 0 #ECB709;
-    -moz-box-shadow: 0 4px 0 #ECB709;
-    box-shadow: 0 4px 0 #ECB709;
+	-webkit-box-shadow: 0 4px 0 #0066ab;
+    -moz-box-shadow: 0 4px 0 #0066ab;
+    box-shadow: 0 4px 0 #0066ab;
 
 }
 .btn:hover,
@@ -678,7 +678,7 @@ section {
     background-repeat: no-repeat;
     background-position: center top !important;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 15px;
     height: 400px;
 
 }

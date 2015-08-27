@@ -20,7 +20,7 @@
 }
 
 #menu-link.is-clicked{
-    background-color: #F7C723;
+    background-color: #0066ab;
     color: #202020;
 }
 
@@ -57,7 +57,7 @@
 
 }
 #menu-link:hover .menu-icon{
-    background-color: #F7C723;
+    background-color: #0066ab;
 } 
 #menu-link .menu-icon::before, #menu-link .menu-icon:after {
   content: '';
@@ -203,7 +203,7 @@
     transform: translateX(-105%);
     height: 3px;
     width: 100%;
-    background: #F7C723;
+    background: #0066ab;
     -webkit-transition: .35s ease;
     transition: .35s ease;
 }

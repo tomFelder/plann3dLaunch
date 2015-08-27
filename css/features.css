@@ -43,7 +43,7 @@
 	-moz-box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.4);
 	box-shadow: 0px 4px 9px 0px rgba(0,0,0,0.4);
 	margin-bottom: 25px;
-	border: 6px solid #F7C723;
+	border: 6px solid #0066ab;
 }
 .zoom-img:hover {
     -webkit-transform: scale(1.5);
