@@ -1,0 +1,73 @@
+/*====================================
+=           PLANN3D Color            =
+====================================*/
+/*
+Plann3d
+Primary Color
+0066ab
+Secondary Color
+368bc5
+*/
+
+
+.bg-shop {
+  background-color: #0066ab;
+}
+
+a {
+	color: #0066ab;
+}
+.color-text {
+	color: #0066ab;
+}
+.btn {
+	background: #0066ab;
+	-webkit-box-shadow: 0 4px 0 #368bc5;
+	-moz-box-shadow: 0 4px 0 #368bc5;
+	box-shadow: 0 4px 0 #368bc5;
+}
+
+.numbers-1 h2 {
+  color: #0066ab;
+}
+
+.features-1 img:hover {
+	border: 6px solid #0066ab;
+}
+
+.back-to-top {
+	background: #0066ab;
+}
+
+.social-links-2 li a:hover {
+	color: #202020;
+	background:#0066ab;
+	border-color: #0066ab;
+}
+#menu-link:hover .menu-icon{
+    background-color: #0066ab;
+} 
+#menu-link.is-clicked{
+    background-color: #0066ab;
+}
+.myform .form-control:focus,
+.myform textarea.inputError:focus,
+.input-group .form-control:focus {
+	border: 2px solid #0066ab;
+}
+.hero-start-link:hover {
+	color:#0066ab;
+}
+.overlay nav ul li a:after {
+    background: #0066ab;
+}
+.close-modal:hover {
+  background-color: #0066ab;
+}
+.zoom-img  {
+	border: 6px solid #0066ab;
+}
+
+/*-----  End of COLOR turquoise  ------*/
+
+
