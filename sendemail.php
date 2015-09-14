@@ -26,7 +26,7 @@ if (isset($_POST['comments'])) {
   Comments: '.$_POST['comments'].'<br />
   ';
 
-  if ( mail($email, 'Contact form webpage 1E-shop by www.angelostudio.net.', $mailText, implode("\r\n", $headerFields) ) ) {
+  if ( mail($email, 'Plann3d Website Contact Us Form', $mailText, implode("\r\n", $headerFields) ) ) {
     error_log(serialize($log_data)."\n", 3, '_log/contact.log');
   } else {
     error_log(serialize($log_data)."\n", 3, '_log/contact_error.log');
