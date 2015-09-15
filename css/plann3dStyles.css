@@ -1,15 +1,14 @@
 /*
  * File: plann3dStyles.css
- * Authors: Tom Frauenfelder & Patrick Ferguson
+ * Authors: Patrick Ferguson and Tom Frauenfelder.
  * Created: 15/09/2015
  * Copyright: ©2015 Plann3d Pty Ltd
  * Purpose: Styling for all plann3d site elements.
  */
 
-points {
+#pointsJS {
     position: absolute;
     display: inline-block;
-    vertical-align: baseline;
     top: 0;
     left: 0;
     width: 100%;
@@ -24,7 +23,8 @@ points {
 }
 
 .plann3dtitle {
-    font-family: Roboto-Light;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 18px;
     color: #FFFFFF;
     letter-spacing: 1.54px;
@@ -32,7 +32,8 @@ points {
 }
 
 .headerlinks {
-    font-family: Raleway-SemiBold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600; /* Semi-Bold */
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 2.2px;
@@ -40,7 +41,8 @@ points {
 }
 
 h1 {
-    font-family: Raleway-SemiBold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600; /* Semi-Bold */
     font-size: 36px;
     color: #0E1125;
     letter-spacing: 2.2px;
@@ -48,7 +50,8 @@ h1 {
 }
 
 h2 {
-    font-family: Raleway-Medium;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; /* Medium */
     font-size: 20px;
     color: #0E1125;
     letter-spacing: 1.2px;
@@ -56,7 +59,8 @@ h2 {
 }
 
 h3 {
-    font-family: Raleway-Medium;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; /* Medium */
     font-size: 14px;
     color: #0E1125;
     letter-spacing: 0.85px;
@@ -64,7 +68,8 @@ h3 {
 }
 
 p{
-    font-family: Raleway-Light;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 10px;
     color: #000000;
     letter-spacing: 0.6px;
@@ -72,7 +77,8 @@ p{
 }
 
 .buttontext {
-    font-family: Raleway-SemiBold;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600; /* Semi-Bold */
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 1.4px;
@@ -80,7 +86,8 @@ p{
 }
 
 .ghostedtext {
-    font-family: Raleway-Light;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 14px;
     color: #A4A4A4;
     letter-spacing: 0.77px;
@@ -93,7 +100,7 @@ p{
 
 .formfield {
     background: #EDEDED;
-    box-shadow: inset 0px 1px 5px 1px rgba(0,0,0,0.30);
+    box-shadow: inset 0 1px 5px 1px rgba(0,0,0,0.30);
 }
 
 .featuremask {
