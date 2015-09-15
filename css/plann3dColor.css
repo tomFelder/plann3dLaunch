@@ -9,6 +9,13 @@ Secondary Color
 368bc5
 */
 
+.plann3dBlueBG {
+    background-color: #0066ab;
+}
+
+.plann3dBlue {
+    color: #0066ab;
+}
 
 .bg-shop {
     background-color: #0066ab;
@@ -28,6 +35,11 @@ a {
 
 .plann3dDark {
     color: #0E1125;
+}
+
+.btn.plann3dLight {
+    color: #0E1125;
+    background-color: #FFF;
 }
 
 .btn {
