@@ -22,6 +22,14 @@ a {
     color: #0066ab;
 }
 
+.plann3dLight {
+    color: #FFF;
+}
+
+.plann3dDark {
+    color: #0E1125;
+}
+
 .btn {
     background: #0066ab;
     -webkit-box-shadow: 0 4px 0 #368bc5;
