@@ -61,3 +61,16 @@ p{
 	letter-spacing: 0.77px;
 	line-height: 16px;
 }
+
+.button {
+	background: #184B72;
+}
+
+.formfield {
+	background: #EDEDED;
+	box-shadow: inset 0px 1px 5px 1px rgba(0,0,0,0.30);
+}
+
+.featuremask {
+	border: 6px solid #184B72;
+}
