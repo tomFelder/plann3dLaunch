@@ -18,7 +18,7 @@ $(function () {
             y: height / 3
         };
 
-        canvas = document.getElementById('points');
+        canvas = document.getElementById('pointsJS');
         canvas.width = width;
         canvas.height = height;
         ctx = canvas.getContext('2d');
