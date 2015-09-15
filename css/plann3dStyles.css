@@ -15,11 +15,30 @@
     max-width: 100%;
 }
 
+#plann3d-hero-vid {
+    position: absolute;
+    display: block;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    overflow: hidden;
+}
+
 /* Mobile breakpoints */
 @media (max-width: 767px) {
     .hidden-xs {
         display: none !important;
     }
+}
+
+.vidCover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.5;
 }
 
 .plann3dtitle {

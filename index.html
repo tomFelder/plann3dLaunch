@@ -28,6 +28,7 @@
         <!-- Plann3d color scheme override -->
         <link href='https://fonts.googleapis.com/css?family=Raleway:600,500,300' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://scann3d.s3.amazonaws.com/propertyfiles/Scann3d-Site-Styles.css">
         <link rel="stylesheet" href="css/plann3dColor.css">
         <link rel="stylesheet" href="css/plann3dStyles.css">
 
@@ -63,6 +64,11 @@
 
         <div id="wrap">
             <section id="hero" class="m-center text-center bg-shop full-height">
+                <video id="plann3d-hero-vid" class="centreHoriz" poster="content/plann3dLowResUnderlayVideoPoster.jpg" width="1366" height="768" loop autoplay class="centreHoriz noSelect">
+                    <source src="content/plann3dLowResUnderlayVideo.mp4" type="video/mp4">
+                    <img src="content/plann3dLowResUnderlayVideoPoster.jpg" alt="Plann3d Hero Image">
+                </video>
+                <div class="vidCover"></div>
                 <canvas id="pointsJS" class="hidden-xs" width="944" height="548"></canvas>
                 <div class="center-box">
                     <div class="container-fluid">
