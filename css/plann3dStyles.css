@@ -16,12 +16,18 @@
 }
 
 #plann3d-hero-vid {
-    position: absolute;
+    position: fixed;
     display: block;
     width: auto;
-    height: 100%;
-    min-width: 100%;
+    height: auto;
+    min-width: 100vw;
+    min-height: 100vh;
     overflow: hidden;
+    z-index: 0;
+}
+
+.full-height {
+    height: 100vh;
 }
 
 /* Mobile breakpoints */
