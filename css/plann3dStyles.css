@@ -34,6 +34,16 @@
     height: 100vh;
 }
 
+#contact-form input {
+    border-radius: 0;
+}
+#contact-form textarea {
+    border-radius: 0;
+}
+#contact-form button {
+    border-radius: 0;
+}
+
 /* Mobile breakpoints */
 @media (max-width: 767px) {
     .hidden-xs {
