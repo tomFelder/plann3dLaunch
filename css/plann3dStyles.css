@@ -2,7 +2,7 @@
  * File: plann3dStyles.css
  * Authors: Patrick Ferguson and Tom Frauenfelder.
  * Created: 15/09/2015
- * Copyright: ©2015 Plann3d Pty Ltd
+ * Copyright: Â©2015 Plann3d Pty Ltd
  * Purpose: Styling for all plann3d site elements.
  */
 
@@ -140,7 +140,7 @@ p{
 }
 
 #plann3dTable img {
-    z-index: 5000;
+    z-index: 10;
 }
 
 #plann3dTable .plann3dImac {
@@ -149,21 +149,37 @@ p{
     top: -638px;
     width: 1446px;
     height: 722px;
-    z-index: 100;
+}
+
+/* Hiding the auxillary elements when they'd intersect the screen bounds */
+@media (max-width: 1200px) {
+    .hideAuxElems {
+        display: none !important;
+    }
+}
+
+#plann3dTable .auxTableElems {
+    display: block;
+    width: 1196px;
+    top: -1000px;
+    z-index: 10;
 }
 
 #plann3dTable .plann3dHeadset {
     position: relative;
-    top: 0px;
+    display: block;
+    top: 120px;
     left: 0px;
-    z-index: 5000;
+    width: 252px;
+    height: 187px;
 }
 
 #plann3dTable .plann3dTablet {
     position: relative;
-    top: 0px;
-    left: 0px;
-    z-index: 5000;
+    top: -108px;
+    left: 450px;
+    width: 318px;
+    height: 231px;
 }
 /* END PLANN3D TABLE */
 
