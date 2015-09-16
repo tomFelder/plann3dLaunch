@@ -132,6 +132,41 @@ p{
     border: 6px solid #184B72;
 }
 
+/* BEGIN PLANN3D TABLE */
+#plann3dTable {
+    background-color: #E8E8E9;
+    height: 144px;
+    width: 100%;
+}
+
+#plann3dTable img {
+    z-index: 5000;
+}
+
+#plann3dTable .plann3dImac {
+    position: relative;
+    display: block;
+    top: -638px;
+    width: 1446px;
+    height: 722px;
+    z-index: 100;
+}
+
+#plann3dTable .plann3dHeadset {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 5000;
+}
+
+#plann3dTable .plann3dTablet {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 5000;
+}
+/* END PLANN3D TABLE */
+
 /* BEGIN MAILCHIMP */
 #mc_embed_signup .mc-field-group {
     max-height: 0px;
