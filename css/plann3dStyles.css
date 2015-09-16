@@ -131,3 +131,52 @@ p{
 .featuremask {
     border: 6px solid #184B72;
 }
+
+/* BEGIN MAILCHIMP */
+#mc_embed_signup .mc-field-group {
+    max-height: 0px;
+}
+
+#mc_embed_signup {
+    background: transparent;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    max-width: 610px;
+}
+
+#mc_embed_signup .mc-field-group input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 12px;
+    width: calc(100% - 110px);
+    height: 45px;
+    top: 0px;
+    -webkit-box-shadow: inset 0px 1px 5px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: inset 0px 1px 5px 1px rgba(0,0,0,0.3);
+    box-shadow: inset 0px 1px 5px 1px rgba(0,0,0,0.3);
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #0066ab;
+}
+
+#mc_embed_signup .button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 13px;
+    background-color: #0066ab;
+    position: absolute;
+    right: 25px;
+    top: 10px;
+    margin: 0px;
+    padding: 0px;
+    width: 110px;
+    height: 45px;
+    border-radius: 0;
+}
+
+/* Signup success or fail */
+#mc_embed_signup div#mce-responses {
+    display: none;
+}
+/* END MAILCHIMP */
