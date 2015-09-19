@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="481px" height="333px" viewBox="0 0 481 333" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Plann3dLogo</title>
+    <desc>Created by Tom Frauenfelder</desc>
+    <g id="Plann3dArtboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Plann3dLogo" sketch:type="MSLayerGroup" transform="translate(-1.000000, 0.000000)">
+            <path d="M481.408,332.347 L242.761,291.173 L242.761,42.125 L242.768,42.124 L242.768,291.156 L385.053,266.607 L385.053,66.67 L242.776,42.122 L481.408,0.95 L481.408,332.347" id="rightOuterDoor" fill="#7B96BD" sketch:type="MSShapeGroup"></path>
+            <path d="M239.644,332.3375 L0.997,291.1635 L0.997,42.1155 L1.004,42.1145 L1.004,291.1465 L143.289,266.5975 L143.289,66.6605 L1.012,42.1125 L239.644,0.9405 L239.644,332.3375" id="leftOuterDoor" fill="#7B96BD" sketch:type="MSShapeGroup" transform="translate(120.320500, 166.639000) scale(-1, 1) translate(-120.320500, -166.639000) "></path>
+            <path d="M118.839,182.952 C114.519,182.952 111.015,178.735 111.015,173.533 C111.015,168.329 114.519,164.114 118.839,164.114 C123.163,164.114 126.666,168.329 126.666,173.533 C126.666,178.735 123.163,182.952 118.839,182.952 L118.839,182.952 Z M96.368,66.682 L96.368,266.62 L238.644,291.167 L238.644,42.135 L96.368,66.682 L96.368,66.682 Z" id="leftInnerDoor" fill="#005B97" sketch:type="MSShapeGroup"></path>
+            <path d="M362.571,164.114 C366.894,164.114 370.397,168.329 370.397,173.533 C370.397,178.735 366.894,182.952 362.571,182.952 C358.25,182.952 354.746,178.735 354.746,173.533 C354.746,168.329 358.25,164.114 362.571,164.114 L362.571,164.114 Z M385.053,266.608 L385.053,66.67 L242.776,42.122 L242.768,42.124 L242.768,291.156 L385.053,266.608 L385.053,266.608 Z" id="rightInnerDoor" fill="#005B97" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
