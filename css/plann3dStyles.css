@@ -91,7 +91,7 @@ h1 {
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 500; /* Medium */
-    font-size: 20px;
+    font-size: 15px;
     color: #0E1125;
     letter-spacing: 1.2px;
     line-height: 24px;
@@ -112,7 +112,7 @@ p{
     font-size: 10px;
     color: #000000;
     letter-spacing: 0.6px;
-    line-height: 11px;
+    line-height: 16px;
 }
 
 .buttontext {
@@ -250,6 +250,10 @@ p{
     width: 110px;
     height: 45px;
     border-radius: 0;
+}
+
+.header p {
+    font-size: 15px;
 }
 
 /* Signup success or fail */
