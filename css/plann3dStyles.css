@@ -80,7 +80,7 @@ body, html {
     font-weight: 300; /* Light */
     font-size: 3em;
     line-height: 1em;
-    max-width: 100%;
+    max-width: 850px;
     text-align: center;
     letter-spacing: 0.145833em;
     
@@ -88,7 +88,7 @@ body, html {
 }
 
 #hero.full-height {
-    /*min-height: 915px;*/
+    min-height: 640px;
 }
 
 .full-height {
@@ -105,6 +105,12 @@ body, html {
     border-radius: 0;
 }
 
+@media (min-width: 1200px) {
+    #mc_embed_signup {
+        padding-top: 7.5vh;
+    }
+}
+
 /* Mobile breakpoints */
 @media (max-width: 767px) {
     .hidden-xs {
@@ -113,14 +119,14 @@ body, html {
     #hero-title {
         font-family: 'Roboto', sans-serif;
         font-weight: 300; /* Light */
-        font-size: 21pt;
+        font-size: 16pt;
         line-height: 24pt;
         max-width: 100%;
+        max-width: 850px;
         text-align: center;
-        letter-spacing: 0.145833em;
-        
+        letter-spacing: 7px;
         padding-bottom: 0 !important;
-    }   
+    }
     #plann3dTable {
         height: 120px !important;
     }
@@ -265,6 +271,15 @@ input:not(input[type=submit]), textarea {
 @media (max-width: 1200px) {
     .hideAuxElems {
         display: none !important;
+    }
+    #plann3dTable {
+        height: 120px;
+    }
+    #plann3dTable .plann3dImac {
+        width: 1500px;
+        top: -420px;
+        height: auto;
+        max-height: none;
     }
 }
 
