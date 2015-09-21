@@ -28,6 +28,7 @@
 
 #hero .container-fluid {
     z-index: 15;
+    top: -15vh;
 }
 
 .full-height {
