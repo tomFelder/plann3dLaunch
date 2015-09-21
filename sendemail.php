@@ -3,10 +3,10 @@
 =            PHP send email            =
 ======================================*/
 
-$email = "your@email.com"; /* add your email */
+$email = "info@plann3d.com.au"; /* add your email */
 
 $headerFields = array(
-  "From: your@email.com", /* add your email */
+  "From: info@plann3d.com.au", /* add your email */
   "MIME-Version: 1.0",
   "Content-Type: text/html;charset=utf-8"
 );
