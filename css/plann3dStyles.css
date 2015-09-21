@@ -2,7 +2,7 @@
  * File: plann3dStyles.css
  * Authors: Patrick Ferguson and Tom Frauenfelder.
  * Created: 15/09/2015
- * Copyright: Ã‚Â©2015 Plann3d Pty Ltd
+ * Copyright: Ãƒâ€šÃ‚Â©2015 Plann3d Pty Ltd
  * Purpose: Styling for all plann3d site elements.
  */
 
@@ -144,20 +144,42 @@ body, html {
     }
 }
 
+/* Modal dialogue */
 @media (min-width: 768px) {
     .modal-dialog {
         width: 60vw;
         top: 7.5vh;
-        max-height: 80vh;
+        height: 80vh;
+        max-height: 90vh;
         z-index: 99999 !important;
     }
 }
 #plann3d-player {
-    max-height: 60vh;
+    max-height: 80vh;
 }
 
-.playerLogoBacking {
-    
+.modal-content {
+    background-color: transparent;
+}
+.modal-body {
+    padding: 0;
+}
+.close-modal {
+    width: 20px;
+    height: 20px;
+    top: -30px;
+    right: -30px;
+}
+.close-modal .menu-icon {
+    width: 10px;
+}
+
+#playerLogoBacking {
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    padding: 23px;
+    height: 70px;
 }
 .playerLogo {
     width: auto;
