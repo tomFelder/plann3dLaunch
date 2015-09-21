@@ -87,7 +87,18 @@ a {
     background-color: #0066ab;
 }
 .zoom-img  {
-    border: 6px solid #0066ab;
+    border: 2px solid #0066ab !important;
+}
+.zoom-img:hover {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    -ms-transition: all 0.15s ease-out 0s;
+    -o-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
 }
 
 /*-----  End of COLOR turquoise  ------*/

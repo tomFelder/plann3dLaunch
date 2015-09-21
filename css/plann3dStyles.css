@@ -25,7 +25,7 @@
 #nav-bar #right-bar {
     position: absolute;
     right: 0px;
-    padding-right: 24px;
+    padding-right: 48px;
 }
 
 #nav-bar a {
@@ -154,7 +154,8 @@ p {
 }
 
 input:not(input[type=submit]), textarea {
-    font-family: 'Roboto Regular', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
 
 .buttontext {
@@ -167,7 +168,8 @@ input:not(input[type=submit]), textarea {
 }
 
 .ghostedtext {
-    font-family: 'Roboto Light', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 14px;
     color: #A4A4A4;
     letter-spacing: 0.77px;
