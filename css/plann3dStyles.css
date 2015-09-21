@@ -155,7 +155,15 @@ body, html {
 #plann3d-player {
     max-height: 60vh;
 }
+
+.playerLogoBacking {
     
+}
+.playerLogo {
+    width: auto;
+    height: 100%;
+}                    
+
 /* Mobile breakpoints */
 @media (max-width: 767px) {
     .hidden-xs {

@@ -263,8 +263,11 @@
                             <h1>Plann3d | Shadow Play</h1>
                         </div>
                         <div class="modal-body">
-                            <iframe id="plann3d-player" width="100%" height="540px" src="https://bit.ly/plann3dPlayerIntro" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
+                            <iframe id="plann3d-player" width="100%" height="540px" data-src="https://bit.ly/plann3dPlayerIntro" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
   </iframe>
+                            <div id="playerLogoBacking">
+                                <img class="playerLogo" src="./img/plann3d-logo.png" alt="Plann3d Player Logo"/>
+                            </div>
                         </div>
                         <div class="modal-footer">
                             <p class="text-center"><a href="" data-dismiss="modal">Close</a>
@@ -292,6 +295,25 @@
         <script type="text/javascript" src="js/min/jquery.counterup.min.js"></script>
         <script type="text/javascript" src="js/min/numbers.min.js"></script>
         <script type="text/javascript" src="js/min/contact.min.js"></script>
+        
+        <!-- Only load the player on click -->
+        <script type="text/javascript">
+            $(function () {
+                // Open
+                $('.plann3dPlayerLink').on('click', function () {
+                    // Set frame reference
+                    var player = $('#plann3d-player');
+                    player.attr('src', player.attr('data-src'));
+                });
+                
+                // Close
+                $('.modal-footer a, .close-modal').on('click', function () {
+                    // Clear fame reference
+                    var player = $('#plann3d-player');
+                    player.attr('src', '');
+                });
+            })
+        </script>
         
         <!-- Google Analytics -->
         <script>
