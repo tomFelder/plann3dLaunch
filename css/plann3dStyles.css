@@ -2,7 +2,7 @@
  * File: plann3dStyles.css
  * Authors: Patrick Ferguson and Tom Frauenfelder.
  * Created: 15/09/2015
- * Copyright: Â©2015 Plann3d Pty Ltd
+ * Copyright: Ã‚Â©2015 Plann3d Pty Ltd
  * Purpose: Styling for all plann3d site elements.
  */
 
@@ -156,6 +156,9 @@ body, html {
     #plann3d-hero-vid {
         display: none;
     }
+    .plann3dPlayBtn {
+        top: -535px !important;
+    }
 }
 
 .vidCover {
@@ -270,7 +273,7 @@ input:not(input[type=submit]), textarea {
 #plann3dTable .plann3dImac {
     position: relative;
     display: block;
-    top: -409px;
+    top: -405px;
     width: 1446px;
     height: 493px;
 }
@@ -282,6 +285,15 @@ input:not(input[type=submit]), textarea {
     text-decoration: none;
     /*width: 250px;
     height: 250px;*/
+}
+
+.plann3dPlayBtn {
+    position: relative;
+    display: block;
+    top: -800px;
+    width: 96px;
+    height: 96px;
+    z-index: 12;
 }
 
 /* Hiding the auxillary elements when they'd intersect the screen bounds */
@@ -298,12 +310,15 @@ input:not(input[type=submit]), textarea {
         height: auto;
         max-height: none;
     }
+    .plann3dPlayBtn {
+        top: -825px;
+    }
 }
 
 #plann3dTable .auxTableElems {
     display: block;
     width: 1196px;
-    top: -768px;
+    top: -861px;
     pointer-events: none;
     z-index: 10;
 }
