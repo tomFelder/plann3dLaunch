@@ -136,7 +136,7 @@
             <!-- Above the fold table images -->
             <section id="plann3dTable" class="padding-top-bottom text-center">
                 <img class="plann3dImac centreHoriz" src="./content/artImac.png" alt="Plann3d Apple Imac computer showing the 3d virtual tour for an off-the-plan property"/>
-                <a class="plann3dPlayerLink" href="http://bit.ly/plann3dPlayerIntro" target="_blank">
+                <a class="plann3dPlayerLink" href="#" data-toggle="modal" data-target="#player-modal">
                     <img class="plann3dPlayBtn centreHoriz" src="./img/icon-video-plan.svg" alt="Open the Plann3d virtual tour experience"/>
                 </a>
                 
@@ -253,42 +253,26 @@
                 </div>
             </section>
 
-            <!--<div class="modal fade" id="product-modal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+            <div class="modal fade" id="player-modal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
                 <div class="modal-dialog modal-sm2">
                     <div class="modal-content">
                         <div class="modal-header">
                             <a class="close-modal" href="#" data-dismiss="modal">
                                 <span class="menu-icon"></span>
                             </a>
-                            <img src="img/cup1.jpg" alt="" class="img-responsive">
+                            <h1>Plann3d | Shadow Play</h1>
                         </div>
                         <div class="modal-body">
-                            <h3 class="text-center"><b>PaperCup - Mockup </b>($5,00)</h3>
+                            <iframe id="plann3d-player" width="100%" height="540px" src="https://bit.ly/plann3dPlayerIntro" frameborder="0" allowfullscreen="" mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel="">
+  </iframe>
                         </div>
                         <div class="modal-footer">
-                            <form id="buy" action="buy" class="myform" method="post" novalidate>
-                                <div class="form-group">
-                                    <label class="control-label" for="contact-mail">Email</label>
-                                    <div class=" controls">
-                                        <input name="email" placeholder="PayPal Email" class="form-control input-lg requiredField" type="email" data-error-invalid="Invalid email address" data-error-empty="Enter email">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">password</label>
-                                    <div class="controls">
-                                        <input id="password" class="form-control" type="password" placeholder="PayPal Password" name="password">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <button type="button" class="btn btn-block">PAY NOW</button>
-                                </div>
-                                <p class="text-center"><a href="" data-dismiss="modal">Cancel</a>
-                                </p>
-                            </form>
+                            <p class="text-center"><a href="" data-dismiss="modal">Close</a>
+                            </p>
                         </div>
                     </div>
                 </div>
-            </div>-->
+            </div>
         </div>
         <!-- Core scripts -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
