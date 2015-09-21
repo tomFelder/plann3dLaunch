@@ -6,6 +6,35 @@
  * Purpose: Styling for all plann3d site elements.
  */
 
+#nav-bar {
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    top: 0px;
+    left: 0px;
+    /*border-bottom: 1px solid #58585b;*/
+    z-index: 9999;
+}
+
+#nav-bar .navLogo {
+    width: auto;
+    height: 29px;
+    left: 23px;
+}
+
+#nav-bar #right-bar {
+    position: absolute;
+    right: 0px;
+    padding-right: 24px;
+}
+
+#nav-bar a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 11px;
+    letter-spacing: 7px;
+}
+
 #pointsJS {
     position: absolute;
     display: inline-block;
@@ -29,6 +58,16 @@
 #hero .container-fluid {
     z-index: 15;
     top: -15vh;
+}
+
+#hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 3em;
+    line-height: 1em;
+    max-width: 100%;
+    text-align: center;
+    letter-spacing: 0.145833em;
 }
 
 .full-height {
@@ -79,7 +118,8 @@
 }
 
 h1 {
-    font-family: 'Roboto Light', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 36px;
     color: #0E1125;
     letter-spacing: 2.2px;
@@ -87,7 +127,8 @@ h1 {
 }
 
 h2 {
-    font-family: 'Roboto Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
     font-size: 15px;
     color: #0E1125;
     letter-spacing: 1.2px;
@@ -95,7 +136,8 @@ h2 {
 }
 
 h3 {
-    font-family: 'Roboto Medium', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Medium */
     font-size: 14px;
     color: #0E1125;
     letter-spacing: 0.85px;
@@ -103,11 +145,12 @@ h3 {
 }
 
 p {
-    font-family: 'Roboto Regular', sans-serif;
-    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 17px;
     color: #000000;
     letter-spacing: 0.6px;
-    line-height: 16px;
+    line-height: 20px;
 }
 
 input:not(input[type=submit]), textarea {
