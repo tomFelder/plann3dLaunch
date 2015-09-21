@@ -2,7 +2,7 @@
  * File: plann3dStyles.css
  * Authors: Patrick Ferguson and Tom Frauenfelder.
  * Created: 15/09/2015
- * Copyright: ©2015 Plann3d Pty Ltd
+ * Copyright: Â©2015 Plann3d Pty Ltd
  * Purpose: Styling for all plann3d site elements.
  */
 
@@ -70,6 +70,10 @@
     letter-spacing: 0.145833em;
 }
 
+#hero.full-height {
+    /*min-height: 915px;*/
+}
+
 .full-height {
     height: 100vh;
 }
@@ -87,6 +91,27 @@
 /* Mobile breakpoints */
 @media (max-width: 767px) {
     .hidden-xs {
+        display: none !important;
+    }
+    #hero-title {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300; /* Light */
+        font-size: 21pt;
+        line-height: 24pt;
+        max-width: 100%;
+        text-align: center;
+        letter-spacing: 0.145833em;
+    }   
+    #plann3dTable {
+        height: 120px !important;
+    }
+    #plann3dTable .plann3dImac {
+        width: 900px !important;
+        top: -276px !important;
+        height: auto !important;
+        max-height: none;
+    }
+    #nav-bar #right-bar {
         display: none !important;
     }
 }
