@@ -73,20 +73,22 @@
 
         <div id="wrap">
             <section id="hero" class="m-center text-center bg-shop full-height">
-                <video id="plann3d-hero-vid" class="centreHoriz noSelect" poster="./content/plann3dLowResUnderlayVideoPoster.jpg" width="1366" height="768" loop autoplay>
-                    <source src="./content/plann3dLowResUnderlayVideo.mp4" type="video/mp4">
-                    <img src="./content/plann3dLowResUnderlayVideoPoster.jpg" alt="Plann3d Hero video of a 3d virtual tour web player, google tango tablet, and virtual reality headset all in one showcase video">
-                </video>
+                <div id="plann3d-hero-vid-holder">
+                    <video id="plann3d-hero-vid" class="centreHoriz noSelect" poster="./content/plann3dLowResUnderlayVideoPoster.jpg" width="1366" height="768" loop autoplay>
+                        <source src="./content/plann3dLowResUnderlayVideo.mp4" type="video/mp4">
+                        <img src="./content/plann3dLowResUnderlayVideoPoster.jpg" alt="Plann3d Hero video of a 3d virtual tour web player, google tango tablet, and virtual reality headset all in one showcase video">
+                    </video>
+                </div>
                 <div class="vidCover"></div>
-                <canvas id="pointsJS" class="hidden-xs" width="1280px" height="768px"></canvas>
+                <canvas id="pointsJS" class="hidden-xs" width="1280" height="768"></canvas>
                 <div class="center-box">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="hero-unit">
                                     <h1 id="hero-title" class="plann3dLight centreHoriz">
-                                        Do you know the best way to market off-the-plan property?</br>
-                                        </br>
+                                        Do you know the best way to market off-the-plan property?<br>
+                                        <br>
                                         We sure do.
                                     </h1>
                                     <!--<a class="btn white" href="#" data-toggle="modal" data-target="#product-modal"><b>$5</b> BUY NOW</a>-->
@@ -127,7 +129,7 @@
                             </div>-->
                         </div>
                     </div>
-                    <a href="#start" class="hero-start-link smooth-scroll anchor-link"><i class="fa fa-angle-double-down"></i></span></a>
+                    <a href="#start" class="hero-start-link smooth-scroll anchor-link"><i class="fa fa-angle-double-down"></i></a>
                 </div>
             </section>
                 
@@ -207,17 +209,17 @@
                                 <div class="row clearfix">
                                     <div class="col-xs-12 col-sm-6 col-md-6">
                                         <div class="form-group">
-                                            <label class="control-label">Name</label>
+                                            <label class="control-label" for="control-name">Name</label>
                                             <div class="controls">
-                                                <input name="contactName" placeholder="Your name" class="form-control input-lg requiredField" type="text" data-error-empty="Enter name">
+                                                <input id="control-name" name="contactName" placeholder="Your name" class="form-control input-lg requiredField" type="text" data-error-empty="Enter name">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-xs-12 col-sm-6 col-md-6">
                                         <div class="form-group">
-                                            <label class="control-label" for="contact-mail">Email</label>
+                                            <label class="control-label" for="contact-email">Email</label>
                                             <div class=" controls">
-                                                <input name="email" placeholder="Your email" class="form-control input-lg requiredField" type="email" data-error-invalid="Invalid email address" data-error-empty="Enter email">
+                                                <input id="contact-email" name="email" placeholder="Your email" class="form-control input-lg requiredField" type="email" data-error-invalid="Invalid email address" data-error-empty="Enter email">
                                             </div>
                                         </div>
                                     </div>	
@@ -225,7 +227,7 @@
                                 <div class="form-group">
                                     <label class="control-label" for="contact-message">Message</label>
                                     <div class="controls">
-                                        <textarea name="comments" placeholder="Your message" class="form-control input-lg requiredField" rows="5" data-error-empty="Enter message"></textarea>
+                                        <textarea id="contact-message" name="comments" placeholder="Your message" class="form-control input-lg requiredField" rows="5" data-error-empty="Enter message"></textarea>
                                     </div>
                                 </div>
                                 <p><button name="submit" type="submit" class="plann3dLight btn btn-store btn-block" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Email Sent">Send message</button></p>
@@ -250,7 +252,7 @@
                 </div>
             </section>
 
-            <div class="modal fade" id="product-modal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
+            <!--<div class="modal fade" id="product-modal" tabindex="-1" role="dialog" aria-labelledby="smallModal" aria-hidden="true">
                 <div class="modal-dialog modal-sm2">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -285,7 +287,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
         <!-- Core scripts -->
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>

@@ -6,6 +6,11 @@
  * Purpose: Styling for all plann3d site elements.
  */
 
+body, html {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
 #nav-bar {
     position: fixed;
     width: 100vw;
@@ -44,6 +49,16 @@
     max-width: 100%;
 }
 
+#plann3d-hero-vid-holder {
+    position: absolute;
+    display: block;
+    max-width: 100vw;
+    max-width: 100vh;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 #plann3d-hero-vid {
     position: fixed;
     display: block;
@@ -68,6 +83,8 @@
     max-width: 100%;
     text-align: center;
     letter-spacing: 0.145833em;
+    
+    padding-bottom: 5vh;
 }
 
 #hero.full-height {
@@ -101,6 +118,8 @@
         max-width: 100%;
         text-align: center;
         letter-spacing: 0.145833em;
+        
+        padding-bottom: 0 !important;
     }   
     #plann3dTable {
         height: 120px !important;
@@ -302,6 +321,7 @@ input:not(input[type=submit]), textarea {
 }
 
 #mc_embed_signup .button:hover {
+    color: #d1d2d4;
     background-color: #0066ab;
 }
 
