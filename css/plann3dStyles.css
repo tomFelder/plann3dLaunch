@@ -70,6 +70,17 @@ body, html {
     z-index: 0;
 }
 
+#plann3d-hero-vid-fallback {
+    position: fixed;
+    display: none;
+    width: auto;
+    height: auto;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    z-index: 0;
+}
+
 #hero .container-fluid {
     z-index: 15;
     top: -15vh;
@@ -138,6 +149,12 @@ body, html {
     }
     #nav-bar #right-bar {
         display: none !important;
+    }
+    #plann3d-hero-vid-fallback {
+        display: block;
+    }
+    #plann3d-hero-vid {
+        display: none;
     }
 }
 
