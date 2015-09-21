@@ -63,8 +63,7 @@
 }
 
 .plann3dtitle {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300; /* Light */
+    font-family: 'Roboto Light', sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     letter-spacing: 1.54px;
@@ -72,8 +71,7 @@
 }
 
 .headerlinks {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600; /* Semi-Bold */
+    font-family: 'Roboto Regular', sans-serif;
     font-size: 14px;
     color: #FFFFFF;
     letter-spacing: 2.2px;
@@ -81,8 +79,7 @@
 }
 
 h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600; /* Semi-Bold */
+    font-family: 'Roboto Light', sans-serif;
     font-size: 36px;
     color: #0E1125;
     letter-spacing: 2.2px;
@@ -90,8 +87,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500; /* Medium */
+    font-family: 'Roboto Medium', sans-serif;
     font-size: 15px;
     color: #0E1125;
     letter-spacing: 1.2px;
@@ -99,8 +95,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 500; /* Medium */
+    font-family: 'Roboto Medium', sans-serif;
     font-size: 14px;
     color: #0E1125;
     letter-spacing: 0.85px;
@@ -108,16 +103,19 @@ h3 {
 }
 
 p{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300; /* Light */
+    font-family: 'Roboto Regular', sans-serif;
     font-size: 10px;
     color: #000000;
     letter-spacing: 0.6px;
     line-height: 16px;
 }
 
+input:not(input[type=submit]), textarea {
+    font-family: 'Roboto Regular', sans-serif;
+}
+
 .buttontext {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600; /* Semi-Bold */
     font-size: 14px;
     color: #FFFFFF;
@@ -126,8 +124,7 @@ p{
 }
 
 .ghostedtext {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300; /* Light */
+    font-family: 'Roboto Light', sans-serif;
     font-size: 14px;
     color: #A4A4A4;
     letter-spacing: 0.77px;
