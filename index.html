@@ -287,70 +287,16 @@
         <!-- End core scripts --> 
         <!-- Custom scripts -->
         <script type="text/javascript" src="js/min/points.min.js"></script>
+        <!-- Basic site functionality -->
+        <script type="text/javascript" src="js/min/main.min.js"></script>
         <!-- End custom scripts -->
-        <!-- sliders -->
+        <!-- Sliders -->
         <script type="text/javascript" src="js/min/owl.carousel.min.js"></script>   	
         <script type="text/javascript" src="js/min/jquery.waitforimages.min.js"></script> 
         <script type="text/javascript" src="js/min/sliders.min.js"></script>
         <script type="text/javascript" src="js/min/jquery.counterup.min.js"></script>
         <script type="text/javascript" src="js/min/numbers.min.js"></script>
         <script type="text/javascript" src="js/min/contact.min.js"></script>
-        
-        <!-- Only load the player on click -->
-        <script type="text/javascript">
-            $(function () {
-                // Fade out hero title text a few seconds after the start
-                $('#hero-title-subtext').delay(5000).animate({
-                    'opacity': '0.0'
-                });
-                
-                // Subscribe form submit
-                $('#mc_embed_signup form').on('submit', function () {
-                    // Store analytics event
-                    ga('send', {
-                        'hitType': 'event', 
-                        'eventCategory': 'button', 
-                        'eventAction': 'click', 
-                        'eventLabel': 'Subscription button'
-                    });
-                });
-                
-                // Contact form submit
-                $('#contact-form').on('submit', function () {
-                    // Store analytics event
-                    ga('send', {
-                        'hitType': 'event', 
-                        'eventCategory': 'button', 
-                        'eventAction': 'click', 
-                        'eventLabel': 'Contact button'
-                    });
-                });
-                
-                // Only load the player on click
-                
-                // Open
-                $('.plann3dPlayerLink').on('click', function () {
-                    // Set frame reference
-                    var player = $('#plann3d-player');
-                    player.attr('src', player.attr('data-src'));
-                    
-                    // Store analytics event
-                    ga('send', {
-                        'hitType': 'event', 
-                        'eventCategory': 'button', 
-                        'eventAction': 'click', 
-                        'eventLabel': 'Player button'
-                    });
-                });
-                
-                // Close
-                $('.modal-footer a, .close-modal').on('click', function () {
-                    // Clear fame reference
-                    var player = $('#plann3d-player');
-                    player.attr('src', '');
-                });
-            })
-        </script>
         
         <!-- Google Analytics -->
         <script>
