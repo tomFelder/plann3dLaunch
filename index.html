@@ -89,7 +89,7 @@
                                     <h1 id="hero-title" class="plann3dLight centreHoriz">
                                         Do you know the best way to market off-the-plan property?<br>
                                         <br>
-                                        We sure do.
+                                        <div id="hero-title-subtext">We sure do.</div>
                                     </h1>
                                     <!--<a class="btn white" href="#" data-toggle="modal" data-target="#product-modal"><b>$5</b> BUY NOW</a>-->
                                     
@@ -299,6 +299,11 @@
         <!-- Only load the player on click -->
         <script type="text/javascript">
             $(function () {
+                // Fade out hero title text a few seconds after the start
+                $('#hero-title-subtext').delay(5000).animate({
+                    'opacity': '0.0'
+                });
+                
                 // Subscribe form submit
                 $('#mc_embed_signup form').on('submit', function () {
                     // Store analytics event
@@ -320,6 +325,8 @@
                         'eventLabel': 'Contact button'
                     });
                 });
+                
+                // Only load the player on click
                 
                 // Open
                 $('.plann3dPlayerLink').on('click', function () {
