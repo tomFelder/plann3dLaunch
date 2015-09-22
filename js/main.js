@@ -13,14 +13,56 @@ var Plann3dMainDOM = {
 };
 
 /**
- * Runs basic site functionality. Provides CSS animation and GA event hooks.
+ * Sets up any CSS animation hooks that will occur throughout the document.
  */
-Plann3dMainDOM.InitFunc = function () {
+Plann3dMainDOM.InitAnimHooks = function () {
     'use strict';
+    
     // Fade in hero title text a few seconds after the start
     $('#hero-title-subtext').delay(3500).animate({
         'opacity': '1.0'
     });
+    
+    var headset = $('.plann3dHeadset');
+    var tablet = $('.plann3dTablet');
+    var headsetText = $('.plann3dHeadsetText');
+    var tabletText = $('.plann3dTabletText');
+    headset.on('mouseover', function () {
+        // Fade in
+        headsetText.stop(true, false);
+        headsetText.animate({
+            'opacity': '1.0'
+        });
+    });
+    headset.on('mouseleave', function () {
+        // Fade out
+        headsetText.stop(true, false);
+        headsetText.animate({
+            'opacity': '0.0'
+        });
+    });
+    tablet.on('mouseover', function () {
+        // Fade in
+        tabletText.stop(true, false);
+        tabletText.animate({
+            'opacity': '1.0'
+        });
+    });
+    tablet.on('mouseleave', function () {
+        // Fade out
+        tabletText.stop(true, false);
+        tabletText.animate({
+            'opacity': '0.0'
+        });
+    });
+};
+
+/**
+ * Runs basic site functionality. Provides CSS animation and GA event hooks.
+ */
+Plann3dMainDOM.InitFunc = function () {
+    'use strict';
+    Plann3dMainDOM.InitAnimHooks();
 
     // Subscribe form submit
     $('#mc_embed_signup form').on('submit', function () {

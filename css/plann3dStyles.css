@@ -2,7 +2,7 @@
  * File: plann3dStyles.css
  * Authors: Patrick Ferguson and Tom Frauenfelder.
  * Created: 15/09/2015
- * Copyright: ©2015 Plann3d Pty Ltd
+ * Copyright: Â©2015 Plann3d Pty Ltd
  * Purpose: Styling for all plann3d site elements.
  */
 
@@ -355,6 +355,7 @@ input:not(input[type=submit]), textarea {
     top: -405px;
     width: 1446px;
     height: 493px;
+    pointer-events: none;
 }
 
 .plann3dPlayerLink {
@@ -398,7 +399,6 @@ input:not(input[type=submit]), textarea {
     display: block;
     width: 1196px;
     top: -861px;
-    pointer-events: none;
     z-index: 10;
 }
 
@@ -409,16 +409,36 @@ input:not(input[type=submit]), textarea {
     left: 0px;
     width: 252px;
     height: 187px;
-    pointer-events: none;
+    cursor: pointer;
+    z-index: 5;
+}
+
+#plann3dTable .plann3dHeadsetText {
+    position: relative;
+    display: block;
+    left: 73px;
+    top: -375px;
+    width: 125px;
+    opacity: 0.0;
 }
 
 #plann3dTable .plann3dTablet {
     position: relative;
-    top: -108px;
-    left: 450px;
+    display: block;
+    top: -107px;
+    left: 892px;
     width: 318px;
     height: 231px;
-    pointer-events: none;
+    cursor: pointer;
+}
+
+#plann3dTable .plann3dTabletText {
+    position: relative;
+    display: block;
+    top: -450px;
+    left: 983px;
+    width: 145px;
+    opacity: 0.0;
 }
 /* END PLANN3D TABLE */
 
