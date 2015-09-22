@@ -19,6 +19,9 @@ Plann3dMainDOM.InitAnimHooks = function () {
     'use strict';
     
     // Fade in hero title text a few seconds after the start
+    $('#hero-title').delay(500).animate({
+        'opacity': '1.0'
+    });
     
     // Fade in hero title sub-text a few seconds after the start
     $('#hero-title-subtext').delay(1500).animate({
@@ -26,6 +29,9 @@ Plann3dMainDOM.InitAnimHooks = function () {
     });
     
     // Fade in the subscribe text a small amount after the hero title subtext
+    $('#hero-subscribe').delay(2500).animate({
+        'opacity': '1.0'
+    });
     
     // Table play button on hover
     var playHolder = $('#plann3d-player-link-holder');
@@ -126,7 +132,10 @@ Plann3dMainDOM.InitFunc = function () {
     $('.plann3dPlayerLink').on('click', function () {
         // Set frame reference
         var player = $('#plann3d-player');
-        player.attr('src', player.attr('data-src'));
+        // Only add player if on PC
+        if ($(window).width() >= 767) {
+            player.attr('src', player.attr('data-src'));
+        }
 
         // Store analytics event
         ga('send', {
