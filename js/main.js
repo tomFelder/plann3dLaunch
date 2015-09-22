@@ -17,9 +17,9 @@ var Plann3dMainDOM = {
  */
 Plann3dMainDOM.InitFunc = function () {
     'use strict';
-    // Fade out hero title text a few seconds after the start
-    $('#hero-title-subtext').delay(5000).animate({
-        'opacity': '0.0'
+    // Fade in hero title text a few seconds after the start
+    $('#hero-title-subtext').delay(3500).animate({
+        'opacity': '1.0'
     });
 
     // Subscribe form submit

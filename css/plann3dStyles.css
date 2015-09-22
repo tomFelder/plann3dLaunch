@@ -120,6 +120,10 @@ body, html {
     padding-bottom: 5vh;
 }
 
+#hero-title-subtext {
+    opacity: 0.0;
+}
+
 #hero.full-height {
     min-height: 640px;
 }
