@@ -45,21 +45,24 @@ body, html {
     position: absolute;
     display: none;
     top: 50%;
-    right: 48px;
-    background-color: #fff;
+    right: 24px;
+    background-color: transparent;
 }
 /* Burger menu line colours */
 #nav-bar #menu-link:hover {
-    background-color: #d1d2d4;
+    /*background-color: #d1d2d4;*/
 }
 #nav-bar #menu-link .menu-icon {
-    background-color: #58585b;
+    background-color: #fff;
+}
+#nav-bar #menu-link .menu-icon:hover {
+    background-color: #d1d2d4;
 }
 #nav-bar #menu-link.is-clicked .menu-icon {
     background-color: rgba(255, 255, 255, 0);
 }
 #menu-link.is-clicked .menu-icon::before, #menu-link.is-clicked .menu-icon::after {
-    background-color: #58585b;
+    background-color: #fff;
 }
 
 #pointsJS {
@@ -261,6 +264,9 @@ body, html {
     .modal-body {
         padding: 25vh 0;
         height: 50vh;
+    }
+    #nav-bar .navLogo {
+        left: 8px;
     }
 }
 
