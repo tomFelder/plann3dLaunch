@@ -112,7 +112,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
     font-weight: 300; /* Light */
     font-size: 3em;
-    line-height: 1em;
+    line-height: 51px;
     max-width: 850px;
     text-align: center;
     letter-spacing: 0.145833em;
