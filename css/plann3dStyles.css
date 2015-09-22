@@ -2,7 +2,7 @@
  * File: plann3dStyles.css
  * Authors: Patrick Ferguson and Tom Frauenfelder.
  * Created: 15/09/2015
- * Copyright: Â©2015 Plann3d Pty Ltd
+ * Copyright: ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©2015 Plann3d Pty Ltd
  * Purpose: Styling for all plann3d site elements.
  */
 
@@ -24,13 +24,13 @@ body, html {
 #nav-bar .navLogo {
     width: auto;
     height: 29px;
-    left: 23px;
+    left: 80px;
 }
 
 #nav-bar #right-bar {
     position: absolute;
     right: 0px;
-    padding-right: 48px;
+    padding-right: 80px;
 }
 
 #nav-bar a {
@@ -112,7 +112,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
     font-weight: 300; /* Light */
     font-size: 3em;
-    line-height: 51px;
+    line-height: 56px;
     max-width: 850px;
     text-align: center;
     letter-spacing: 0.145833em;
@@ -228,7 +228,43 @@ body, html {
         display: none;
     }
     .plann3dPlayBtn {
-        top: -535px !important;
+        top: 426px !important;
+        opacity: 0.0 !important;
+    }
+    .plann3dPlayLargeBtn {
+        top: 61px !important;
+        width: 128px !important;
+        height: 128px !important;
+        opacity: 1.0 !important;
+    }
+    .plann3dPlayLargeBtnText {
+        top: 298px !important;
+        opacity: 1.0 !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    /* Hiding the auxillary elements when they'd intersect the screen bounds */
+    .hideAuxElems {
+        display: none !important;
+    }
+    #plann3dTable {
+        height: 120px;
+    }
+    #plann3dTable .plann3dImac {
+        width: 1500px;
+        top: -420px;
+        height: auto;
+        max-height: none;
+    }
+    .plann3dPlayBtn {
+        top: 150px;
+    }
+    .plann3dPlayLargeBtn {
+        top: -283px;
+    }
+    .plann3dPlayLargeBtnText {
+        top: -25px;
     }
 }
 
@@ -358,47 +394,57 @@ input:not(input[type=submit]), textarea {
     pointer-events: none;
 }
 
+#plann3d-player-link-holder {
+    position: relative;
+    top: -948px;
+    z-index: 12;
+    width: 256px;
+    height: 356px;
+    cursor: pointer;
+}
+
 .plann3dPlayerLink {
     padding: 0px;
     margin: 0px;
-    display: block;
+    /* display: block; */
     text-decoration: none;
     /*width: 250px;
     height: 250px;*/
+    width: 100%;
+    height: 100%;
 }
 
 .plann3dPlayBtn {
     position: relative;
     display: block;
-    top: -800px;
-    width: 96px;
-    height: 96px;
-    z-index: 12;
+    top: 175px;
+    width: 64px;
+    height: 64px;
+    opacity: 1.0;
+}
+    
+.plann3dPlayLargeBtn {
+    position: relative;
+    display: block;
+    top: -262px;
+    width: 256px;
+    height: 256px;
+    opacity: 0.0;
 }
 
-/* Hiding the auxillary elements when they'd intersect the screen bounds */
-@media (max-width: 1200px) {
-    .hideAuxElems {
-        display: none !important;
-    }
-    #plann3dTable {
-        height: 120px;
-    }
-    #plann3dTable .plann3dImac {
-        width: 1500px;
-        top: -420px;
-        height: auto;
-        max-height: none;
-    }
-    .plann3dPlayBtn {
-        top: -825px;
-    }
+.plann3dPlayLargeBtnText {
+    position: relative;
+    display: block;
+    top: 0px;
+    width: 256px;
+    height: 256px;
+    opacity: 0.0;
 }
 
 #plann3dTable .auxTableElems {
     display: block;
     width: 1196px;
-    top: -861px;
+    top: -1124px;
     z-index: 10;
 }
 

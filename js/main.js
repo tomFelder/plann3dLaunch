@@ -19,10 +19,44 @@ Plann3dMainDOM.InitAnimHooks = function () {
     'use strict';
     
     // Fade in hero title text a few seconds after the start
-    $('#hero-title-subtext').delay(3500).animate({
+    
+    // Fade in hero title sub-text a few seconds after the start
+    $('#hero-title-subtext').delay(1500).animate({
         'opacity': '1.0'
     });
     
+    // Fade in the subscribe text a small amount after the hero title subtext
+    
+    // Table play button on hover
+    var playHolder = $('#plann3d-player-link-holder');
+    var playBtn = $('.plann3dPlayBtn');
+    var lrgBtn = $('.plann3dPlayLargeBtn, .plann3dPlayLargeBtnText');
+    playHolder.on('mouseover', function () {
+        // Fade out
+        playBtn.stop(true, false);
+        playBtn.animate({
+            'opacity': '0.0'
+        });
+        // Fade in
+        lrgBtn.stop(true, false);
+        lrgBtn.animate({
+            'opacity': '1.0'
+        });
+    });
+    playHolder.on('mouseleave', function () {
+        // Fade in
+        playBtn.stop(true, false);
+        playBtn.animate({
+            'opacity': '1.0'
+        });
+        // Fade out
+        lrgBtn.stop(true, false);
+        lrgBtn.animate({
+            'opacity': '0.0'
+        });
+    });
+    
+    // Table auxiliary element on hover text
     var headset = $('.plann3dHeadset');
     var tablet = $('.plann3dTablet');
     var headsetText = $('.plann3dHeadsetText');
