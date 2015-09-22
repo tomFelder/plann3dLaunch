@@ -299,11 +299,41 @@
         <!-- Only load the player on click -->
         <script type="text/javascript">
             $(function () {
+                // Subscribe form submit
+                $('#mc_embed_signup form').on('submit', function () {
+                    // Store analytics event
+                    ga('send', {
+                        'hitType': 'event', 
+                        'eventCategory': 'button', 
+                        'eventAction': 'click', 
+                        'eventLabel': 'Subscription button'
+                    });
+                });
+                
+                // Contact form submit
+                $('#contact-form').on('submit', function () {
+                    // Store analytics event
+                    ga('send', {
+                        'hitType': 'event', 
+                        'eventCategory': 'button', 
+                        'eventAction': 'click', 
+                        'eventLabel': 'Contact button'
+                    });
+                });
+                
                 // Open
                 $('.plann3dPlayerLink').on('click', function () {
                     // Set frame reference
                     var player = $('#plann3d-player');
                     player.attr('src', player.attr('data-src'));
+                    
+                    // Store analytics event
+                    ga('send', {
+                        'hitType': 'event', 
+                        'eventCategory': 'button', 
+                        'eventAction': 'click', 
+                        'eventLabel': 'Player button'
+                    });
                 });
                 
                 // Close
