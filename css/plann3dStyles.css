@@ -326,6 +326,14 @@ input:not(input[type=submit]), textarea {
     border: 6px solid #184B72;
 }
 
+.contactBtn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light */
+    font-size: 15px;
+    color: #0E1125;
+    letter-spacing: 1.2px;
+}
+
 /* BEGIN PLANN3D TABLE */
 #plann3dTable {
     background-color: #E8E8E9;
