@@ -6,7 +6,10 @@ require_once 'vendor/swiftmailer/swiftmailer/lib/swift_required.php';
 
 define('SMTP_USERNAME', 'AKIAIRYIXW3PQ3HGQISQ');
 define('SMTP_PASSWORD', 'AoHqDy9drN7ioD/id/u8KhYuRJmN217tOolqhnWJuC4L');
-define('TO_EMAIL', 'info@plann3d.com');
+define('SMTP_HOST', 'email-smtp.us-west-2.amazonaws.com');
+define('SMTP_PORT', 25);
+
+define('TO_EMAIL', 'info@plann3d.com.au');
 define('FROM_EMAIL', 'info@plann3d.com.au');
 define('FROM_EMAIL_DISPLAY', 'Plann3d');
 define('EMAIL_SUBJECT', 'Plann3d Website Contact Us Form');
@@ -17,7 +20,7 @@ $log_data['post_data'] = $_POST;
 
 if (isset($_POST['comments'])) {
 
-  $transport = Swift_SmtpTransport::newInstance('email-smtp.us-west-2.amazonaws.com', 465, "tls")
+  $transport = Swift_SmtpTransport::newInstance(SMTP_HOST, SMTP_PORT, "tls")
     ->setUsername(SMTP_USERNAME)
     ->setPassword(SMTP_PASSWORD);
 
