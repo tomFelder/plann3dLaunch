@@ -27,11 +27,11 @@ if (isset($_POST['comments'])) {
   $mailer = Swift_Mailer::newInstance($transport);
 
   $messageBody = '
-    IP: '.$log_data['ip'].'<br />
-    User agent: '.$log_data['userAgent'].'<br />
-    ContactName: '.$_POST['contactName'].'<br />
-    Email: '.$_POST['email'].'<br />
-    Comments: '.$_POST['comments'].'<br />
+    IP: '.$log_data['ip'].'
+    User agent: '.$log_data['userAgent'].'
+    ContactName: '.$_POST['contactName'].'
+    Email: '.$_POST['email'].'
+    Comments: '.$_POST['comments'].'
   ';
   $message = Swift_Message::newInstance(EMAIL_SUBJECT)
     ->setFrom(array(FROM_EMAIL => FROM_EMAIL_DISPLAY))
