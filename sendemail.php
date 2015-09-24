@@ -38,7 +38,14 @@ if (isset($_POST['comments'])) {
     ->setTo(array(TO_EMAIL))
     ->setBody($messageBody);
 
-  $result = $mailer->send($message);
+  try {
+    $result = $mailer->send($message);
+  }
+  catch (Exception $e) {
+    error_log(serialize($log_data)."\n", 3, '_log/contact_error.log');
+    throw $e;
+  }
+
   if ( $result ) {
     error_log(serialize($log_data)."\n", 3, '_log/contact.log');
   } else {
