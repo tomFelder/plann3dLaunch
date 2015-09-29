@@ -221,9 +221,8 @@ body, html {
         height: 120px !important;
     }
     #plann3dTable .plann3dImac {
-        width: 900px !important;
         top: -276px !important;
-        height: auto !important;
+        height: 307px !important;
         max-height: none;
     }
     #nav-bar #right-bar {
@@ -279,9 +278,8 @@ body, html {
         height: 120px;
     }
     #plann3dTable .plann3dImac {
-        width: 1500px;
         top: -420px;
-        height: auto;
+        height: 511px;
         max-height: none;
     }
     .plann3dPlayBtn {
@@ -416,7 +414,6 @@ input:not(input[type=submit]), textarea {
     position: relative;
     display: block;
     top: -405px;
-    width: 1446px;
     height: 493px;
     pointer-events: none;
 }
