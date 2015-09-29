@@ -468,6 +468,10 @@ input:not(input[type=submit]), textarea {
     opacity: 0.0;
 }
 
+#plann3dTable {
+    max-width: 100vw;
+}
+
 #plann3dTable .auxTableElems {
     display: block;
     width: 1196px;
