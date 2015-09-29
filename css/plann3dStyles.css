@@ -223,6 +223,7 @@ body, html {
     #plann3dTable .plann3dImac {
         top: -276px !important;
         height: 307px !important;
+        max-width: 100vw;
         max-height: none;
     }
     #nav-bar #right-bar {
