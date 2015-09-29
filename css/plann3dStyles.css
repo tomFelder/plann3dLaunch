@@ -287,8 +287,12 @@ body, html {
 .plann3dPlayer {
     max-height: 80vh;
 }
-.fb-video {
+#plann3d-mobile-vid-holder {
     display: none !important;
+}
+#plann3d-mobile-vid {
+    top: 0;
+    width: 100vw;
 }
 
 .modal-content {
@@ -376,7 +380,7 @@ body, html {
     .modal-body #playerLogoBacking {
         display: none;
     }
-    .modal-body .fb-video {
+    .modal-body #plann3d-mobile-vid-holder {
         display: block !important;
     }
     .modal-body {
