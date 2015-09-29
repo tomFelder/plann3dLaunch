@@ -150,6 +150,10 @@ body, html {
     border-radius: 0;
 }
 
+#contact-message {
+    max-width: 100vw;
+}
+
 @media (min-width: 1200px) {
     #mc_embed_signup {
         padding-top: 7.5vh;
